@@ -1,0 +1,373 @@
+html {
+  margin: 0;
+  padding: 0;
+  width: 100%; }
+
+body {
+  width: 100%; }
+
+  @font-face {
+    src: url(/fonts/Raleway-regular.ttf);
+    font-family: raleway; }
+
+* {
+  font-family: raleway;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  color: #fff;
+   }
+
+#container {
+  padding-top: 3rem;
+  background-image: linear-gradient(to right, #005522, #002b11);
+}
+
+#name .title {
+  text-align: center;
+  display: block;
+}
+
+@media screen and (min-width: 68rem) {
+  #name .title {
+  }
+}
+
+#genre {
+  padding: 50px 0px;
+}
+
+@media screen and (min-width: 68rem) {
+  #genre {
+    padding: 50px 0;
+  }
+}
+
+#genre .genres {
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+@media screen and (min-width: 68rem) {
+  #genre .genres {
+    font-size: 2.5rem;
+  }
+}
+
+#social {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  justify-items: center;
+  padding: 1.5rem;
+  font-size: 1.5rem;
+  font-family: raleway;
+}
+
+#social i {
+  overflow-y: hidden;
+}
+
+
+@media screen and (min-width: 68rem) {
+  #social {
+    grid-template-columns: repeat(4, 1fr);
+    justify-items: center;
+    padding: 3rem;
+    font-size: 1.5rem;
+  }
+}
+
+#grid-line-1 {
+  display: grid;
+  grid-auto-rows: minmax(125px, auto);
+  grid-gap: .5rem;
+  justify-items: center;
+  align-items: center;
+  /* padding: 3rem; */
+}
+
+@media screen and (min-width: 68rem) {
+  #grid-line-1 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 0;
+    justify-items: center;
+    align-items: center;
+    padding: 3rem 15rem;
+  }
+}
+
+#bio {
+  position: relative;
+  background: rgba(1, 1, 1, .6);
+  margin: 0 10px;
+}
+
+@media screen and (min-width: 68rem) {
+  #bio {
+    border-radius: 25px;
+    padding: 1.2rem;
+    margin: 0 0 ;
+    width: 700px;
+    height: 450px;
+    overflow-y: hidden;
+  }
+}
+
+.bio-text {
+  font-size: 1.3rem;
+  text-align: center;
+}
+
+@media screen and (min-width: 68rem) {
+  .bio-text {
+  font-size: 1.4rem;
+  }
+}
+
+.carousel-inner {
+  width: 700px;
+  height: 450px;
+  /* border: 20px solid #fff; */
+  border-radius: 25px;
+}
+
+#quote-1 {
+  text-align: center;
+  padding: 3rem;
+}
+
+#quote-1 .blurb{
+  font-size: 2rem;
+}
+
+#quote-1 .writer {
+  font-size: 1.4rem;
+}
+
+#grid-line-2 {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  font-size: 1.2rem;
+}
+
+@media screen and (min-width: 68rem) {
+#grid-line-2 {
+  grid-template-columns: repeat(2, 1fr);
+  /* grid-template-rows: repeat(3, 1fr); */
+  justify-items: center;
+  font-size: 1.4rem;
+  padding: 3rem 20rem;
+  }
+}
+
+#festival-items {
+  display: grid;
+  grid-row-gap: 2rem;
+}
+
+.spotify-player {
+  margin: 0 10px;
+}
+
+@media screen and (min-width: 68rem) {
+  .spotify-player {
+    margin: 0 0;
+  }
+}
+
+.festivals {
+  padding: 2rem;
+  background: #000;
+  margin: 0 10px;
+}
+
+@media screen and (min-width: 68rem) {
+  .festivals {;
+    border-radius: 25px;
+    margin: 0 0;
+  }
+}
+
+.members {
+  padding: 2rem;
+  background: #000;
+  margin: 0 10px;
+  }
+
+@media screen and (min-width: 68rem) {
+.members {
+  padding: 2rem;
+  background: #000;
+  border-radius: 25px;
+  margin: 0 0 ;
+  }
+}
+
+.press {
+  padding: 2rem;
+  background: #000;
+  margin: 0 10px;
+  }
+
+@media screen and (min-width: 68rem) {
+.press {
+  padding: 2rem;
+  background: #000;
+  border-radius: 25px;
+  margin: 0 0;
+  }
+}
+
+#quote-2 {
+  text-align: center;
+  padding: 3rem;
+}
+
+#quote-2 .blurb{
+  font-size: 2rem;
+}
+
+#quote-2 .writer {
+  font-size: 1.4rem;
+}
+
+#grid-line-3 {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  justify-items: center;
+  padding: 0;
+}
+
+@media screen and (min-width: 68rem) {
+  #grid-line-3 {
+    grid-template-columns: repeat(2, 1fr);
+    padding: 5rem;
+  }
+}
+
+#video {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%;
+  height: 0;
+}
+
+#video iframe{
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+  #calendar {
+  margin-top: 3rem;
+  display: grid;
+  align-self: center;
+}
+
+@media screen and (min-width: 68rem) {
+  #calendar {
+    margin-top: 0;
+  }
+}
+
+#grid-line-4 {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  justify-items: center;
+}
+
+@media screen and (min-width: 68rem) {
+  #grid-line-4 {
+    grid-template-columns: repeat(2, 1fr);
+    padding: 3rem;
+  }
+}
+
+#other-stuff {
+  border: 10px solid #fff;
+  font-size: 1.5rem;
+  text-align: center;
+  margin-top: 3rem;
+}
+
+#festival-posters {
+  border: 10px solid #fff;
+  font-size: 1.5rem;
+  text-align: center;
+  margin-top: 3rem;
+}
+
+/* IGNORE THE FOLLOWING: */
+
+/* .mountain-background {
+  position: relative; } */
+
+/* .large-hero--title-about {
+  font-weight: 700;
+  position: static;
+  font-size: 3rem;
+  white-space: nowrap;
+  text-align: center;
+  padding-top: 50px;
+  color: #10697d;
+  letter-spacing: .1rem; }
+  @media (min-width: 530px) {
+    .large-hero--title-about {
+      font-size: 6rem; } }
+  @media only screen and (min-width: 800px) {
+    .large-hero--title-about {
+      font-size: 8rem;
+      padding-top: 75px; } }
+  @media (min-width: 1200px) {
+    .large-hero--title-about {
+      font-size: 9rem;
+      padding-top: 75px; } }
+  @media (min-width: 1500px) {
+    .large-hero--title-about {
+      font-size: 11rem;
+      padding-top: 100px; } } */
+
+/* #about {
+  background-image: url(/images/mountains.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: grid;
+  overflow-x: hidden; } */
+
+
+/* .dp-edit {
+  width: 100%; }
+  @media (min-width: 530px) {
+    .dp-edit {
+      width: 700px; } }
+  @media only screen and (min-width: 800px) {
+    .dp-edit {
+      width: 850px;
+      margin-bottom: 50px; } } */
+
+/* .bio {
+  font-family: roboto;
+  font-weight: 300;
+  font-size: 1rem;
+  width: 100%;
+  background-color: #104f5d;
+  color: #fff;
+  padding: 30px 75px; }
+  @media (min-width: 530px) {
+    .bio {
+      padding: 10px 30px; } }
+  @media only screen and (min-width: 800px) {
+    .bio {
+      padding: 30px 50px;
+      width: 850px;
+      font-size: 1.2rem;
+      margin-bottom: 50px; } }
+  @media (min-width: 1200px) {
+    .bio {
+      font-size: 1.3rem;
+      padding: 10px 20px; } } */
